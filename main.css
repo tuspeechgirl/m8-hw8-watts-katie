@@ -12,14 +12,14 @@
 .main-menu-labels {
   margin: 0;
   padding: 15px 0;
-  background-color: #08254f;
-  color: #fff;
+  background-color:  #CF5230;
+  color: #E3C598;
   font-size: 18px;
 }
 /* Sub Menu Styling */
 .sub-menu {
   padding-left: 0;
-  background-color: #dde1e7;
+  background-color:  #F59A44;
 }
 .sub-menu li {
   display: block;
@@ -27,13 +27,17 @@
   padding: 20px;
   border: 2px solid #fff;
   box-sizing: border-box;
+  color: #6E352C;
 }
-.sub-menu-1{
+ /* Menu Display */
+
+.products-sub, .services-sub, .company-sub {
   display: none;
+  overflow: hidden;
+  transition: .5s;
 }
-.sub-menu-2{
-  display: none;
-}
-.sub-menu-3{
-  display: none;
+.show-menu {
+  display: block;
+  height: 185px;
+  transition: .5s;
 }
